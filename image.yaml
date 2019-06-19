@@ -47,6 +47,10 @@ modules:
             git:
                   url: https://github.com/kabir/wildfly-cekit-modules.git
                   ref: master
+          - name: wildfly-s2i
+            git:
+                  url: https://github.com/wildfly/wildfly-s2i.git
+                  ref: master
       install:
           - name: jboss.container.openjdk.jdk
             version: "8"
